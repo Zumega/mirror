@@ -1,0 +1,28 @@
+{
+  "success": {
+    "total": 1
+  },
+  "contents": {
+    "quotes": [
+      {
+        "quote": "Climb the mountains and get their good tidings. Nature's peace will flow into you as sunshine flows into trees. The winds will blow their own freshness into you, and the storms their energy, while cares will drop away from you like the leaves of Autumn.",
+        "length": "253",
+        "author": "John Muir",
+        "tags": [
+          "autumn",
+          "inspire",
+          "mountaineering",
+          "peace",
+          "tso-life"
+        ],
+        "category": "inspire",
+        "date": "2018-03-19",
+        "permalink": "https://theysaidso.com/quote/AplDeYJXEVuZ8_Qsl4d7QweF/john-muir-climb-the-mountains-and-get-their-good-tidings-natures-peace-will-flow",
+        "title": "Inspiring Quote of the day",
+        "background": "https://theysaidso.com/img/bgs/man_on_the_mountain.jpg",
+        "id": "AplDeYJXEVuZ8_Qsl4d7QweF"
+      }
+    ],
+    "copyright": "2017-19 theysaidso.com"
+  }
+}

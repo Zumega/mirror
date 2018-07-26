@@ -1,0 +1,395 @@
+{
+  "response": {
+    "version":"0.1",
+    "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+    "features": {
+      "forecast": 1
+    }
+  }
+,
+  "forecast":{
+    "txt_forecast": {
+      "date":"7:39 AM PDT",
+      "forecastday": [
+        {
+          "period":0,
+          "icon":"clear",
+          "icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+          "title":"Friday",
+          "fcttext":"Mainly sunny. High near 55F. Winds N at 5 to 10 mph.",
+          "fcttext_metric":"Mainly sunny. High 13C. Winds N at 10 to 15 km/h.",
+          "pop":"0"
+        }
+      ,
+        {
+          "period":1,
+          "icon":"nt_clear",
+          "icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+          "title":"Friday Night",
+          "fcttext":"Clear to partly cloudy. Low 36F. Winds light and variable.",
+          "fcttext_metric":"Clear skies. Low 3C. Winds light and variable.",
+          "pop":"10"
+        }
+      ,
+        {
+          "period":2,
+          "icon":"clear",
+          "icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+          "title":"Saturday",
+          "fcttext":"Sun and a few passing clouds. High near 55F. Winds S at 5 to 10 mph.",
+          "fcttext_metric":"A few clouds early, otherwise mostly sunny. High 13C. Winds S at 10 to 15 km/h.",
+          "pop":"20"
+        }
+      ,
+        {
+          "period":3,
+          "icon":"nt_partlycloudy",
+          "icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+          "title":"Saturday Night",
+          "fcttext":"A few clouds. Low around 40F. Winds S at 5 to 10 mph.",
+          "fcttext_metric":"Partly cloudy. Low around 5C. Winds S at 10 to 15 km/h.",
+          "pop":"20"
+        }
+      ,
+        {
+          "period":4,
+          "icon":"mostlycloudy",
+          "icon_url":"http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+          "title":"Sunday",
+          "fcttext":"Mostly cloudy. High 53F. Winds S at 5 to 10 mph.",
+          "fcttext_metric":"Mostly cloudy. High 12C. Winds S at 10 to 15 km/h.",
+          "pop":"20"
+        }
+      ,
+        {
+          "period":5,
+          "icon":"nt_partlycloudy",
+          "icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+          "title":"Sunday Night",
+          "fcttext":"Partly cloudy skies during the evening will give way to cloudy skies overnight. Low 38F. Winds light and variable.",
+          "fcttext_metric":"Partly cloudy skies during the evening will give way to cloudy skies overnight. Low 4C. Winds light and variable.",
+          "pop":"10"
+        }
+      ,
+        {
+          "period":6,
+          "icon":"partlycloudy",
+          "icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+          "title":"Monday",
+          "fcttext":"Partly cloudy skies. High around 55F. Winds WNW at 5 to 10 mph.",
+          "fcttext_metric":"Partly cloudy skies. High 13C. Winds NW at 10 to 15 km/h.",
+          "pop":"10"
+        }
+      ,
+        {
+          "period":7,
+          "icon":"nt_clear",
+          "icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+          "title":"Monday Night",
+          "fcttext":"Mainly clear. Low 37F. Winds light and variable.",
+          "fcttext_metric":"Clear skies. Low 4C. Winds light and variable.",
+          "pop":"10"
+        }
+      ]
+    },
+    "simpleforecast": {
+      "forecastday": [
+        {"date":{
+          "epoch":"1521252000",
+          "pretty":"7:00 PM PDT on March 16, 2018",
+          "day":16,
+          "month":3,
+          "year":2018,
+          "yday":74,
+          "hour":19,
+          "min":"00",
+          "sec":0,
+          "isdst":"1",
+          "monthname":"March",
+          "monthname_short":"Mar",
+          "weekday_short":"Fri",
+          "weekday":"Friday",
+          "ampm":"PM",
+          "tz_short":"PDT",
+          "tz_long":"America/Los_Angeles"
+        },
+          "period":1,
+          "high": {
+            "fahrenheit":"55",
+            "celsius":"13"
+          },
+          "low": {
+            "fahrenheit":"36",
+            "celsius":"2"
+          },
+          "conditions":"Clear",
+          "icon":"clear",
+          "icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+          "skyicon":"",
+          "pop":0,
+          "qpf_allday": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 10,
+            "kph": 16,
+            "dir": "N",
+            "degrees": 350
+          },
+          "avewind": {
+            "mph": 8,
+            "kph": 13,
+            "dir": "N",
+            "degrees": 350
+          },
+          "avehumidity": 59,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        }
+      ,
+        {"date":{
+          "epoch":"1521338400",
+          "pretty":"7:00 PM PDT on March 17, 2018",
+          "day":17,
+          "month":3,
+          "year":2018,
+          "yday":75,
+          "hour":19,
+          "min":"00",
+          "sec":0,
+          "isdst":"1",
+          "monthname":"March",
+          "monthname_short":"Mar",
+          "weekday_short":"Sat",
+          "weekday":"Saturday",
+          "ampm":"PM",
+          "tz_short":"PDT",
+          "tz_long":"America/Los_Angeles"
+        },
+          "period":2,
+          "high": {
+            "fahrenheit":"55",
+            "celsius":"13"
+          },
+          "low": {
+            "fahrenheit":"40",
+            "celsius":"4"
+          },
+          "conditions":"Clear",
+          "icon":"clear",
+          "icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+          "skyicon":"",
+          "pop":20,
+          "qpf_allday": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 10,
+            "kph": 16,
+            "dir": "S",
+            "degrees": 191
+          },
+          "avewind": {
+            "mph": 7,
+            "kph": 11,
+            "dir": "S",
+            "degrees": 191
+          },
+          "avehumidity": 70,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        }
+      ,
+        {"date":{
+          "epoch":"1521424800",
+          "pretty":"7:00 PM PDT on March 18, 2018",
+          "day":18,
+          "month":3,
+          "year":2018,
+          "yday":76,
+          "hour":19,
+          "min":"00",
+          "sec":0,
+          "isdst":"1",
+          "monthname":"March",
+          "monthname_short":"Mar",
+          "weekday_short":"Sun",
+          "weekday":"Sunday",
+          "ampm":"PM",
+          "tz_short":"PDT",
+          "tz_long":"America/Los_Angeles"
+        },
+          "period":3,
+          "high": {
+            "fahrenheit":"53",
+            "celsius":"12"
+          },
+          "low": {
+            "fahrenheit":"38",
+            "celsius":"3"
+          },
+          "conditions":"Mostly Cloudy",
+          "icon":"mostlycloudy",
+          "icon_url":"http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+          "skyicon":"",
+          "pop":20,
+          "qpf_allday": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 10,
+            "kph": 16,
+            "dir": "S",
+            "degrees": 191
+          },
+          "avewind": {
+            "mph": 6,
+            "kph": 10,
+            "dir": "S",
+            "degrees": 191
+          },
+          "avehumidity": 67,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        }
+      ,
+        {"date":{
+          "epoch":"1521511200",
+          "pretty":"7:00 PM PDT on March 19, 2018",
+          "day":19,
+          "month":3,
+          "year":2018,
+          "yday":77,
+          "hour":19,
+          "min":"00",
+          "sec":0,
+          "isdst":"1",
+          "monthname":"March",
+          "monthname_short":"Mar",
+          "weekday_short":"Mon",
+          "weekday":"Monday",
+          "ampm":"PM",
+          "tz_short":"PDT",
+          "tz_long":"America/Los_Angeles"
+        },
+          "period":4,
+          "high": {
+            "fahrenheit":"55",
+            "celsius":"13"
+          },
+          "low": {
+            "fahrenheit":"37",
+            "celsius":"3"
+          },
+          "conditions":"Partly Cloudy",
+          "icon":"partlycloudy",
+          "icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+          "skyicon":"",
+          "pop":10,
+          "qpf_allday": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0.00,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_day": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "snow_night": {
+            "in": 0.0,
+            "cm": 0.0
+          },
+          "maxwind": {
+            "mph": 10,
+            "kph": 16,
+            "dir": "WNW",
+            "degrees": 301
+          },
+          "avewind": {
+            "mph": 6,
+            "kph": 10,
+            "dir": "WNW",
+            "degrees": 301
+          },
+          "avehumidity": 65,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        }
+      ]
+    }
+  }
+}

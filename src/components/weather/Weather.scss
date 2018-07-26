@@ -1,0 +1,58 @@
+.weather {
+  float:right;
+
+  section {
+    display: block;
+    width: 200px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 25px;
+
+    &:last-child {
+      padding-bottom: 0;
+      border-bottom: none;
+      margin-bottom: 0;
+    }
+
+    .date {
+      margin-bottom: 10px;
+    }
+
+    .labels {
+      label {
+        float: left;
+        display: block;
+        font-size: 14px;
+        font-weight: normal;
+        width: 100px;
+      }
+    }
+
+    .temps {
+      .highTemp {
+        float: left;
+        width: 100px;
+        font-size: 72px;
+        font-weight: bold;
+        margin-top: -10px;
+      }
+
+      .lowTemp {
+        float: left;
+        width: 30px;
+        font-size: 20px;
+      }
+
+      .condition {
+        display: block;
+        width: 100%;
+        clear: both;
+
+        img {
+          vertical-align: middle;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
